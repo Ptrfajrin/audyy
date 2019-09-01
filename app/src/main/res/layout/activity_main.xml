@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mothersday" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/satu"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:text="Happy Mother's day!"
+        android:textColor="#f2385d"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/dua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/satu"
+        android:fontFamily="monospace"
+        android:text="Thankyou for everything! \n I love you, Mom"
+        android:textAlignment="center"
+        android:textColor="#9538f2"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/dua"
+        android:text="-Sicerely, \n Your Daughter"
+        android:layout_alignParentRight="true"
+        android:paddingRight="30dp"
+        android:textColor="#0b7d3a"
+        android:textSize="19sp" />
+
+</RelativeLayout>
